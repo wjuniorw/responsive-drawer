@@ -1,0 +1,23 @@
+{
+  "name": "responsive-drawer",
+  "version": "1.0.0",
+  "description": "responsive drawer with react and styled-components",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html --open",
+    "build": "parcel build src/index.html -d build/ --no-source-maps --detailed-report"
+  },
+  "author": "wjuniorw",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-react": "^6.24.1",
+    "parcel-bundler": "latest"
+  },
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-router-dom": "^5.1.2",
+    "styled-components": "^4.4.1"
+  }
+}
