@@ -23,14 +23,18 @@ const SideDrawerUl = styled.ul`
 `
 const SideDrawerItem = styled.li`
   margin: 0.5rem 0;
+  border-bottom: solid 1px #22bed9;
+  ${'' /* box-shadow: 0 0px 5px #22bad9; */}
+  ${'' /* box-shadow: 1px 1px 5px -3px rgba(34,150,200, 0.5); */}
   a {
-    color: #521751;
+    color: #22bad9;
     font-size: 1.2rem;
     text-decoration: none;
   }
   a:hover,
   a:active {
     color: #fa923f;
+    ${'' /* color: rgb(3, 231, 255); */}
   }
 `
 

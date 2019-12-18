@@ -14,6 +14,17 @@ export const ToolbarNav = styled.nav`
   padding: 0 1rem;
   align-items: center;
 `
+export const ToolbarLogo = styled.div`
+  margin-left: 1rem;
+  @media (min-width: 769px) {
+    margin-left: 0;
+  }
+  a {
+    color: #fff;
+    font-size: 1.5rem;
+    text-decoration: none;
+  }
+`
 export const ToolbarNavItens = styled.div`
   ul {
     list-style: none;
@@ -29,20 +40,9 @@ export const ToolbarNavItens = styled.div`
     text-decoration: none;
   }
   a:hover, a:active {
-    color: #fa923f;
+    color: rgb(3, 231, 255);
   }
   @media (max-width: 768px) {
     display: none;
-  }
-`
-export const ToolbarLogo = styled.div`
-  margin-left: 1rem;
-  @media (min-width: 769px) {
-    margin-left: 0;
-  }
-  a {
-    color: #fff;
-    font-size: 1.5rem;
-    text-decoration: none;
   }
 `

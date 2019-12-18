@@ -15,7 +15,7 @@ const ToolBar = ({ toggleDrawer }) => (
         <DrawerButton click={toggleDrawer} />
       </div>
       <ToolbarLogo>
-        <a href="/">THE LOGO</a>
+        <a href="/">THE LOGO OR TITLE</a>
       </ToolbarLogo>
       <div style={{ flex: 1 }} />
       <ToolbarNavItens>
@@ -24,7 +24,13 @@ const ToolBar = ({ toggleDrawer }) => (
             <a href="/">Products</a>
           </li>
           <li>
+            <a href="/">Cart</a>
+          </li>
+          <li>
             <a href="/">Users</a>
+          </li>
+          <li>
+            <a href="/">Settings</a>
           </li>
         </ul>
       </ToolbarNavItens>
