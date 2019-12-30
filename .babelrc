@@ -1,4 +1,4 @@
 {
-  "presets": ["react"],
+  "presets": [],
   "plugins": ["transform-runtime"]
 }
